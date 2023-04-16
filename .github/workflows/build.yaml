@@ -41,7 +41,7 @@ jobs:
               run: echo "NOW=$(date +%F)" >> $GITHUB_ENV
 
             - name: Create a release
-              uses: "plu5/automatic-releases-with-sha-action@main"
+              uses: "pull3d/automatic-releases-with-sha-action@main"
               with:
                 repo_token: "${{ secrets.GITHUB_TOKEN }}"
                 prerelease: false
