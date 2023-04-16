@@ -1,0 +1,1 @@
+*/30 * * * * chown -R 1000:1000 /mnt/sdb1/portainer/
