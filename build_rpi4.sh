@@ -32,6 +32,6 @@ make image  PROFILE="rpi-4" \
                     procd procd-seccomp procd-ujail uci uclient-fetch urandom-seed wpad-basic-wolfssl kmod-usb-storage luci-compat \
                     luci-lib-ipkg cfdisk resize2fs kmod-usb-storage-extras kmod-usb-storage-uas usbutils block-mount ntfs-3g \
                     kmod-fs-ext4 wget-ssl lsblk luci-compat luci-lib-ipkg kmod-usb-net-rtl8152 luci luci-ssl kmod-ath9k-htc \
-                    nano dockerd luci-app-dockerman adblock luci-app-adblock" \
+                    nano dockerd luci-app-dockerman adblock luci-app-adblock tcpdump" \
             FILES="${BASEDIR}/files/" \
             BIN_DIR="${OUTPUT}"

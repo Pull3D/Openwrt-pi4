@@ -45,6 +45,6 @@ jobs:
               with:
                 repo_token: "${{ secrets.GITHUB_TOKEN }}"
                 prerelease: false
-                title: "OpenWRT"
-                automatic_release_tag: "OpenWRT"
+                title: "OpenWRT SHA ${{ env.GITHUB_SHA_SHORT }}"
+                automatic_release_tag: "OpenWRT-${{ env.GITHUB_SHA_SHORT }}"
                 files: images/*
