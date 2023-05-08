@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OUTPUT="$(pwd)/images"
-BUILD_VERSION="22.03.4"
+BUILD_VERSION="22.03.5"
 BUILDER="https://downloads.openwrt.org/releases/${BUILD_VERSION}/targets/bcm27xx/bcm2711/openwrt-imagebuilder-${BUILD_VERSION}-bcm27xx-bcm2711.Linux-x86_64.tar.xz"
 KERNEL_PARTSIZE=256 #Kernel-Partitionsize in MB
 ROOTFS_PARTSIZE=8192 #Rootfs-Partitionsize in MB
